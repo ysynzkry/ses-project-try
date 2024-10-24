@@ -1,0 +1,193 @@
+/* Gold */
+h1, button {
+    color: gold;
+  }
+  
+  /* Black */
+  body, input[type="text"], input[type="password"], textarea, p, ul, li, a {
+    color: black;
+  }
+  
+  /* Stone Grey */
+  body {
+    background-color: #808080;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: gold;
+    transform: scale(1.1);
+  }
+  
+  /* Text Input Styles */
+  input[type="text"],
+  input[type="password"],
+  textarea {
+    background-color: #d3d3d3;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Background Styles */
+  body {
+    background-image: url("path/to/background-image.jpg");
+    background-size: cover;
+  }
+  
+  /* Post Styles */
+  .post {
+    background-color: white;
+    border: 20px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .post:hover {
+    background-color: gold;
+    border-color: white;
+  }
+  
+  .post .content {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .post .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post .actions button {
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .post .actions button:hover {
+    background-color: black;
+    color: gold;
+    transform: scale(1.1);
+  }
+  
+  .post .actions .like {
+    background-color: yellow;
+    color: grey;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .post .actions .like:hover {
+    background-color: black;
+    color: gold;
+    transform: scale(1.1);
+  }
+  
+  .post .actions .comment {
+    background-color: yellow;
+    color: grey;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .post .actions .comment:hover {
+    background-color: black;
+    color: gold;
+    transform: scale(1.1);
+  }
+  
+  /* Comment Transition Styles */
+  .post .comments {
+    margin-top: 20px;
+  }
+  
+  .post .comments .comment {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .post .comments .comment:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Sound Styles */
+  .sound-button {
+    display: inline-block;
+    background-color: gold;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .sound-button:hover {
+    background-color: black;
+    color: gold;
+    transform: scale(1.1);
+  }
+  
+  /* Additional Styles */
+  .navbar {
+    background-color: black;
+    color: gold;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-content {
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: black;
+    color: gold;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* ...Add more custom styles and code here... */

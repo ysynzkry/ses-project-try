@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ses Official Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Smouha english school</h1>
+ <div id="viewerLoginSection">
+  <input type="text" id="viewerUsername" placeholder="Enter your username">
+  <button onclick="viewerLogin()">Login as Viewer</button>
+
+</div>
+
+<div id="adminLoginSection">
+  <input type="text" id="adminUsername" placeholder="Enter admin username">
+  <input type="password" id="adminPassword" placeholder="Enter admin password">
+  <button onclick="adminLogin()">Login as Admin</button>
+
+</div>
+
+<div id="adminSection" style="display: none;">
+  <p id="adminUsernameDisplay"></p>
+
+  <div>
+    <textarea id="postTextarea" placeholder="What's on your mind"></textarea>
+    <input type="file" id="fileInput">
+    <button onclick="createPost()">New Post</button>
+  </div>
+
+  <div id="postsContainer"></div>
+</div>
+
+<div id="viewerSection" style="display: none;">
+  <p id="viewerUsernameDisplay"></p>
+  <div id="postsContainerv"></div>
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
